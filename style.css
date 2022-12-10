@@ -1,0 +1,34 @@
+*
+{
+    margin: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#heading
+{
+    font-size: 25px;
+}
+.drop
+{
+    font-size: 20px;
+}
+#filter
+{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.employeeitem
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid white;
+}
